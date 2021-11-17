@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <script
+      src="https://kit.fontawesome.com/e04806f0eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>samuelms</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1" href="./index.html">SAMUELMS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >about</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="./projects.html">projects</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="contact-me" class="ms-auto row">
+        <h1 id="contact-me-title" class="mb-3">Contact Me</h1>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <form
+            action="https://formsubmit.co/ssamuelmarcellino@gmail.com"
+            method="POST"
+          >
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+                <label for="firstName" class="form-label"> First name </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                  required
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+                <label for="lastName" class="form-label"> Last name </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  required
+                />
+              </div>
+              <div class="col-lg-12 mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  required
+                  placeholder="name@mail.com"
+                />
+              </div>
+              <div class="col-lg-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="10"
+                  rows="5"
+                  class="form-control"
+                ></textarea>
+                <button type="submit" class="btn btn-dark mt-3 btn-lg">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12" id="lets-work">
+          <h1 class="mb-3">Let's Work Together!</h1>
+          <a
+            href="https://www.linkedin.com/in/samuel-marcellino-setiawan-0a2603144/"
+            class="btn btn-outline-dark"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a
+            href="https://www.instagram.com/s.marcellino.s/"
+            class="btn btn-outline-dark"
+            target="_blank"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+        </div>
+        <div id="social-media-mobile">
+          <a
+            href="https://www.linkedin.com/in/samuel-marcellino-setiawan-0a2603144/"
+            target="_blank"
+            class="btn btn-dark pt-2 pb-1"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/s.marcellino.s/"
+            class="btn btn-dark pt-2 pb-1"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mt-auto">
+      <div class="container-fluid">
+        <p class="text-center">&copy 2021 by Samuel M. Setiawan</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
